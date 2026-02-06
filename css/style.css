@@ -1,0 +1,1214 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    font-family: "Manrope", sans-serif;
+}
+
+/* Header---------------------------- */
+header {
+  position: relative;
+  height: 15vh;
+  overflow: visible;
+}
+
+header picture img {
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.75;
+}
+
+header section {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 2.5vw;
+}
+
+h1 {
+  margin: 0;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 2vh 2vw;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  border-radius: 10rem;
+}
+
+h1 a {
+    text-decoration: none;
+    color: black;
+}
+
+header section nav ul {
+  display: flex;
+  gap: 2.5vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+header section nav ul a {
+  background-color: white;
+  padding: 1.5vh 1.5vw;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+header section nav ul a:hover {
+    background-color: #000000;
+    color: white;
+}
+
+header section button {
+    display: none;
+}
+/*------------------------------------*/
+
+/*Resume -----------------------------*/
+#potrait-resume {
+    border-radius: 10rem;
+    display: block;
+    margin: 7.5vh auto;
+}
+
+#rubrik-resume {
+    text-align: center;
+}
+
+#paragraf-resume {
+    text-align: center;
+    width: 55ch;
+    display: block;
+    margin: 0 auto;
+    line-height: 1.75;
+}
+
+#paragraf2-resume {
+    text-align: center;
+    width: 55ch;
+    display: block;
+    margin: 2.5vh auto 7.5vh auto;
+    line-height: 1.5;
+}
+
+.linje-resume {
+    width: 65vw;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    max-width: 1500px;
+}
+
+.sektion-resume {
+    display: flex;
+    margin: 5vh auto;
+    width: 65vw;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.bild-resume {
+    width: 20vw;
+    height: auto;
+    max-width: 400px;
+}
+
+.paragraf-projekt-resume {
+    width: 45ch;
+    line-height: 1.75;
+}
+
+.button-resume {
+    background-color: white;
+    width: 10rem;
+    text-align: center;
+    border-radius: 5rem;
+    padding: 2vh 0.75vw;
+    margin-top: 5vh;
+    margin-bottom: 3.5vh;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.button-resume:hover {
+    background-color: #969696;
+}
+
+.button-resume a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+.link-in-text {
+    color: white;
+}
+
+.här-är-jag {
+    background-color: #000000;
+    color: white;
+}
+
+#rubrik-undersidor {
+    text-align: center;
+    font-size: 3rem;
+    margin: 7.5vh 0 7.5vh 0;
+}
+
+.sektion-education {
+    margin: 7.5vh auto;
+    width: 65vw;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.paragraf-education {
+    width: 60ch;
+    line-height: 1.75;
+}
+
+.potrait-about-me {
+    border-radius: 0.75rem;
+    width: 15vw;
+    height: auto;
+    max-width: 300px;
+}
+
+#sektion-about-me {
+    display: flex;
+    width: 65vw;
+    margin: 5vh auto;
+    justify-content: space-between;
+    max-width: 1500px;
+}
+
+.linje-about-me {
+    width: 13vw;
+    max-width: 300px;
+}
+
+.paragraf-about-me {
+    width: 55ch;
+    line-height: 1.75;
+}
+
+#kontaktuppgifter {
+    margin: 4vh 0;
+}
+
+/* Projekt------------------------ */
+
+/* Dizparc */
+.rubrik-projekt {
+    text-align: center;
+    font-size: 3rem;
+    margin: 7.5vh 0 2vh 0;
+}
+
+.underrubrik-projekt {
+    text-align: center;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.underrubrik-projekt-2 {
+    text-align: center;
+    margin: 2vh 0 7.5vh 0;
+    font-size: 1.25rem;
+}
+
+.sektion-introduction-dizparc {
+    background-color: white;
+    width: 55vw;
+    display: flex;
+    align-items: center;
+    color: black;
+    margin: 7.5vh auto 0 auto;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+.text-paragraf-dizparc {
+    width: 25vw;
+    text-align: center;
+    line-height: 1.75;
+    max-width: 50ch;
+}
+
+.bild-dator-dizparc {
+    width: 25vw;
+    height: auto;
+    max-width: 400px;
+}
+
+.rubrik-inom-projekt,
+.rubrik-info-projekt {
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#process-upphandling-bild {
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: 2vh auto 0 auto;
+    max-width: 1200px;
+}
+
+.display-info-dizparc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-dizparc {
+    background-color: white;
+    width: 55vw;
+    color: black;
+    margin-top: 7.5vh;
+    align-items: center;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    margin: 7.5vh auto 0 auto;
+    max-width: 1200px;
+}
+
+.sektion-designproblem-dizparc {
+    background-color: white;
+    width: 55vw;
+    color: black;
+    margin: 7.5vh auto 0 auto;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    max-width: 1200px;
+}
+
+#deisgn-problem-dizparc {
+    display: flex;
+    gap: 2vw;
+}
+
+.design-problem-ruta {
+    background-color: #B4C8A8;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    width: 15vw;
+    margin-top: 2vh;
+}
+
+.sektion-dizparc {
+    background-color: white;
+    color: black;
+    margin: 7.5vh auto 0 auto;
+    width: 55vw;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    max-width: 1200px;
+}
+
+.sektion-dizparc-thank-you {
+    background-color: white;
+    color: black;
+    margin: 7.5vh auto 7.5vh auto;
+    width: 55vw;
+    border-radius: 0.5rem;
+    padding: 5vh 5vw;
+    max-width: 1200px;
+}
+
+.rubrik-process-dizparc {
+    margin-top: 5vh;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.flex-paragrafer-process-dizparc {
+    display: flex;
+    gap: 7.5vw;
+}
+
+.paragraf-process-dizparc {
+    width: 25vw;
+    max-width: 55ch;
+}
+
+.paragraf-process-dizparc-margin p {
+    width: 25vw;
+    line-height: 1.75;
+    margin-top: 0.5vh;
+    max-width: 55ch;
+}
+
+.paragraf-process-dizparc-margin {
+    margin-top: 7.5vh;
+}
+
+.liten-rubrik-process-dizparc {
+    margin-bottom: 0;
+}
+
+.paragraf-process-dizparc p {
+    margin-top: 0.5vh;
+    line-height: 1.75;
+}
+
+.img-sketch-dizparc {
+    width: 25vw;
+    margin-top: 3vh;
+    max-width: 535px;
+}
+
+.img-interface-dizparc {
+    width: 25vw;
+    border: solid black 1px;
+    margin-top: 3vh;
+    max-width: 535px;
+}
+
+.flex-img-process-dizparc {
+    display: flex;
+    gap: 6vw;
+}
+
+.flex-result-dizparc {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-result-dizparc {
+    width: 22.5vw;
+    max-width: 450px;
+}
+
+.rubrik-result-dizparc {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.underrubrik-result-dizparc {
+    margin-bottom: 0.5vh;
+    margin-top: 3vh;
+}
+
+.list-result-dizparc {
+    margin-top: 0.5vh;
+    line-height: 1.75;
+}
+
+.motivation-result-dizparc {
+    margin-top: 0;
+    line-height: 1.75;
+    width: 27.5vw;
+    max-width: 55ch;
+}
+
+.linje-result-dizparc {
+    margin: 3vh 0;
+    border: #D9D9D9 solid 2px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.insights-sektion {
+    margin-top: 5vh;
+}
+
+.insights {
+    margin-top: 2vh;
+    line-height: 1.75;
+}
+
+.rubrik-projekt-thank-you {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.text-thank-you {
+    line-height: 1.75;
+    text-align: center;
+    margin: 3vh auto;
+    width: 40vw;
+    max-width: 75ch;
+}
+
+/* Eleiko -------------------*/
+#img-process-eleiko {
+    width: 25vw;
+    height: auto;
+    max-width: 600px;
+}
+
+.design-problem-ruta-eleiko {
+    background-color: #094F6C;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 1vh 1vw;
+    border-radius: 0.5rem;
+    line-height: 1.5;
+    width: 15vw;
+    margin-top: 2vh;
+}
+
+#stakeholder-eleiko-img {
+    width: 27.5vw;
+    height: auto;
+    max-width: 550px;
+}
+
+.flex-paragrafer-bild-eleiko {
+    display: flex;
+    gap: 5vw;
+    align-items: center;
+}
+
+#CJ-img-eleiko {
+    height: 12.5vw;
+    width: auto;
+    margin-top: 1vh;
+    max-height: 265px;
+}
+
+#FCJ-img-eleiko {
+    height: 12.5vw;
+    width: auto;
+    margin-top: 1vh;
+    max-height: 265px;
+}
+
+#blueprint-eleiko-img {
+    width: 55vw;
+    height: auto;
+    margin-top: 1vh;
+    max-width: 1000px;
+}
+
+.rubrik-resultat-eleiko {
+    font-size: 1.5rem;
+}
+
+.flex-result-eleiko {
+    display: flex;
+    gap: 7.5vw;
+}
+
+.paragraf-result-eleiko {
+    width: 45vw;
+    line-height: 1.75;
+    max-width: 55ch;
+}
+
+.list-value-eleiko {
+    line-height: 1.75;
+}
+
+.list-value-eleiko li {
+    margin-bottom: 1.5vh;
+}
+
+.storyboard-eleiko-img {
+    width: 55vw;
+    height: auto;
+    margin: 0;
+    max-width: 1200px;
+}
+
+.flex-img-process-eleiko {
+    display: flex;
+    gap: 7vw;
+}
+
+/*Volvo----------------------*/
+.text-paragraf-volvo {
+    width: 22.5vw;
+    text-align: center;
+    line-height: 1.75;
+    color: white;
+    background-color: #1B365D;
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    margin: 2vh auto;
+    max-width: 500px;
+}
+
+#rubrik-research-volvo {
+    font-size: 1.25rem;
+}
+
+#research-summary-volvo {
+    background-color: #1B365D;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 2vh 2vw;
+    margin: 1vh 0 0 0;
+}
+
+.sketch-img-volvo {
+    width: 15vw;
+    height: auto;
+    max-width: 400px;
+}
+
+#flex-sketch-img-volvo {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 0 5vh 0;
+}
+
+.wireframes-img-volvo {
+    width: 10vw;
+    height: auto;
+    border: black 1px solid;
+    max-width: 200px;
+}
+
+.flex-wireframes-volvo {
+    display: flex;
+    gap: 1vw;
+    margin: 2.5vh 0 5vh 0;
+}
+
+.arrow {
+    width: 2vw;
+}
+
+.flex-result-volvo {
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+.sektion-result-volvo {
+    display: flex;
+    flex-direction: column;
+    background-color: #1B365D;
+    text-align: center;
+    padding: 3vh 1vw;
+    color: white;
+    margin: 2.5vh auto 2.5vh auto;
+    width: 15vw;
+    border-radius: 0.5rem;
+    line-height: 1.75;
+}
+
+.paragraf-result-volvo {
+    margin-bottom: 3vh;
+}
+
+/*Footer -------------------*/
+#linje-över-footer {
+    width: 65vw;
+    max-width: 1500px;
+}
+
+footer h3 {
+    text-align: center;
+    margin: 5vh auto 1vh auto;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 7.5vh;
+}
+
+@media (min-width: 1024px) and (max-width: 1500px) {
+    .linje-resume,
+    .sektion-resume,
+    #linje-över-footer,
+    .sektion-education,
+    #sektion-about-me {
+        width: 80vw;
+    }
+
+    .sektion-introduction-dizparc,
+    .information-dizparc,
+    .sektion-designproblem-dizparc,
+    .sektion-dizparc,
+    .sektion-dizparc-thank-you {
+        width: 70vw;
+    }
+
+    .motivation-result-dizparc {
+        width: 40vw;
+    }
+
+    .paragraf-process-dizparc,
+    .paragraf-process-dizparc-margin p,
+    .text-paragraf-dizparc {
+        width: 30vw;
+    }
+
+    .flex-paragrafer-process-dizparc {
+        justify-content: space-between;
+    }
+
+    .flex-img-process-dizparc {
+        gap: 15vw;
+    }
+
+    .flex-img-process-eleiko {
+        gap: 16vw;
+    }
+
+    #deisgn-problem-dizparc {
+        justify-content: space-between;
+    }
+    .storyboard-eleiko-img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .paragraf-result-eleiko {
+        width: 60vw;
+    }
+
+    .display-info-dizparc {
+        justify-content: center;
+        gap: 10vw;
+    }
+
+    .sketch-img-volvo {
+        width: 20vw;
+        height: auto;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    h1 {
+        font-size: 1.5rem;
+        padding: 2vh 4vw;
+    }
+
+    header section {
+        padding: 0 7.5vw;
+    }
+
+    header section nav {
+        display: none;
+    }
+
+    header section button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border: none;
+        padding: 1rem;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        cursor: pointer;
+    }
+
+    header section button img {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    header section nav.open {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 3vw;
+        background: white;
+        border-radius: 1rem;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        z-index: 10;
+        left: 0;
+        width: 100%;
+        padding: 3vh 0;
+        border-radius: 0;
+    }
+
+    header section nav.open ul {
+        flex-direction: column;
+        gap: 2vh;
+        align-items: flex-start;
+        padding-left: 3vw; 
+    }
+
+    header section nav.open ul li a {
+        display: block;
+        width: 45vw;
+        padding: 1.5vh 2vw;
+        text-align: left;
+        border-radius: 2rem;
+        border: solid #D9D9D9 1px;
+    }
+
+    .sektion-resume {
+        margin: 5vh auto;
+        width: 80vw;
+    }
+
+    .linje-resume,
+    #linje-över-footer,
+    .sektion-education {
+        width: 80vw;
+    }
+
+    .linje-about-me {
+        width: 80vw;
+        max-width: 1000px;
+    }
+
+    .paragraf-projekt-resume,
+    .paragraf-about-me {
+        width: 40vw;
+    }
+
+    .bild-resume,
+    .potrait-about-me {
+        width: 30vw;
+        height: auto;
+    }
+
+    #sektion-about-me {
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+    }
+
+    .rubrik-projekt {
+        font-size: 2rem;
+    }
+
+    .underrubrik-projekt {
+        font-size: 1.25rem;
+        width: 80vw;
+        margin: 2vh auto;
+    }
+
+    .underrubrik-projekt-2 {
+        font-size: 1.25rem;
+        width: 80vw;
+        margin: 2vh auto 7.5vh auto;
+    }
+
+    .sektion-introduction-dizparc,
+    .sektion-dizparc,
+    .sektion-designproblem-dizparc,
+    .information-dizparc,
+    .sektion-dizparc-thank-you {
+        width: 70vw;
+        flex-direction: column;
+    }
+
+    .display-info-dizparc {
+        width: 60vw;
+        flex-direction: column;
+        margin: 0 auto 5vh auto;
+    }
+
+    .bild-dator-dizparc,
+    .img-result-dizparc {
+        width: 50vw;
+        height: auto;
+        margin-top: 3vh;
+    }
+
+    #CJ-img-eleiko,
+    #FCJ-img-eleiko,
+    #process-upphandling-bild {
+        width: 60vw;
+        height: auto;
+    }
+
+    #deisgn-problem-dizparc,
+    .flex-result-dizparc  {
+        flex-direction: column;
+    }
+
+    .design-problem-ruta {
+        width: 60vw;
+        margin: 0 auto 0 auto;
+        padding: 2vh 4vw;
+    }
+
+    .flex-paragrafer-process-dizparc {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .design-problem-ruta-eleiko {
+        width: 68vw;
+    }
+
+    .flex-paragrafer-bild-eleiko {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+
+    #stakeholder-eleiko-img,
+    .text-paragraf-volvo,
+    #img-process-eleiko,
+    .paragraf-education,
+    .text-paragraf-dizparc {
+        width: 60vw;
+    }
+
+    .flex-result-eleiko {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .list-value-eleiko,
+    .paragraf-result-eleiko,
+    .paragraf-process-dizparc-margin p,
+    .motivation-result-dizparc,
+    .text-thank-you,
+    .paragraf-process-dizparc {
+        width: 65vw;
+    }
+
+    .storyboard-eleiko-img {
+        display: block;
+        margin: 0 auto;
+        width: 70vw;
+    }
+
+    .sketch-img-volvo {
+        width: 20vw;
+    }
+
+    .wireframes-img-volvo {
+        width: 15vw;
+    }
+
+    .flex-result-volvo,
+    .flex-img-process-dizparc,
+    .flex-img-process-eleiko {
+        flex-direction: column;
+    }
+
+    .sektion-result-volvo {
+        flex-direction: row;
+        width: 60vw;
+        align-items: center;
+        padding: 5vw;
+        justify-content: center;
+        gap: 5vw;
+        text-align: left;
+    }
+
+    .img-sketch-dizparc,
+    .img-interface-dizparc {
+        width: 70vw;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2rem;
+        padding: 2vh 4vw;
+    }
+
+    header section {
+        padding: 0 7.5vw;
+    }
+    
+    header section nav,
+    .arrow {
+        display: none;
+    }
+
+    header section button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: white;
+        border: none;
+        padding: 1rem;
+        border-radius: 50%;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        cursor: pointer;
+    }
+
+    header section button img {
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+
+    header section nav.open {
+        display: block;
+        position: absolute;
+        top: 100%;
+        right: 3vw;
+        background: white;
+        border-radius: 1rem;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+        z-index: 10;
+        left: 0;
+        width: 100%;
+        padding: 3vh 0;
+        border-radius: 0;
+    }
+
+    header section nav.open ul {
+        flex-direction: column;
+        gap: 2vh;
+        align-items: flex-start;
+        padding-left: 5vw; 
+    }
+
+    header section nav.open ul li a {
+        display: block;
+        width: 80vw;
+        padding: 1.5vh 4vw;
+        text-align: left;
+        border-radius: 2rem;
+        border: solid #D9D9D9 1px;
+    }
+
+    .sektion-resume {
+        margin: 5vh auto;
+        width: 80vw;
+        flex-direction: column;
+    }
+
+    .bild-resume {
+        width: 80vw;
+        height: auto;
+    }
+
+    footer h3,
+    #paragraf2-resume,
+    .paragraf-projekt-resume,
+    #paragraf-resume,
+    .linje-resume,
+    #linje-över-footer,
+    main section h2 {
+        width: 80vw;
+    }
+
+    #rubrik-resume {
+        width: 80vw;
+        margin: 0 auto 3vh auto;
+    }
+
+    #rubrik-undersidor {
+        font-size: 2rem;
+    }
+
+    .sektion-education,
+    .paragraf-education,
+    .paragraf-about-me {
+        width: 80vw;
+    }
+
+    .linje-about-me {
+        width: 80vw;
+        max-width: 1000px;
+    }
+
+    #sektion-about-me {
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+    }
+
+    .potrait-about-me {
+        width: 80vw;
+        align-items: flex-start;
+        border-radius: 2rem;
+        margin-top: 3vh;
+    }
+
+    .rubrik-projekt {
+        font-size: 1.5rem;
+        margin: 7.5vh auto 3vh auto;
+    }
+
+    .underrubrik-projekt {
+        font-size: 1rem;
+        width: 80vw;
+        margin: 2vh auto;
+    }
+
+    .underrubrik-projekt-2 {
+        font-size: 1rem;
+        width: 80vw;
+        margin: 2vh auto 7.5vh auto;
+    }
+
+    .sektion-introduction-dizparc,
+    .sektion-dizparc,
+    .sektion-designproblem-dizparc,
+    .information-dizparc,
+    .sektion-dizparc-thank-you {
+        width: 70vw;
+        flex-direction: column;
+    }
+
+    .rubrik-inom-projekt {
+        width: 70vw;
+        margin: 0 auto  3vh auto;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .rubrik-info-projekt {
+        width: 60vw;
+        margin: 0 auto  3vh auto;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .display-info-dizparc {
+        justify-content: center;
+        flex-direction: column;
+        gap: 7.5vw;
+    }
+
+    .bild-dator-dizparc {
+        width: 50vw;
+        height: auto;
+        margin-top: 3vh;
+    }
+
+    #CJ-img-eleiko,
+    #FCJ-img-eleiko,
+    #process-upphandling-bild {
+        width: 60vw;
+        height: auto;
+    }
+
+    .design-problem-ruta {
+        width: 60vw;
+        margin: 0 auto 0 auto;
+        padding: 2vh 4vw;
+    }
+
+    .flex-paragrafer-process-dizparc {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .paragraf-process-dizparc,
+    .rubrik-process-dizparc,
+    .text-paragraf-dizparc {
+        width: 70vw;
+    }
+
+    .motivation-result-dizparc {
+        width: 70vw;
+        margin: 0 auto;
+    }
+
+    .img-result-dizparc {
+        width: 50vw;
+        height: auto;
+        margin-top: 3vh;
+    }
+
+    .img-sketch-dizparc,
+    .img-interface-dizparc {
+        width: 70vw;
+        height: auto;
+    }
+
+    .list-result-dizparc li {
+        margin: 0 auto 2vh auto;
+        width: 50vw;
+    }
+
+    .text-thank-you, 
+    .paragraf-process-dizparc-margin p {
+        width: 65vw;
+    } 
+
+    .rubrik-projekt-thank-you {
+        text-align: center;
+        width: 72.5vw;
+    }
+
+    #img-process-eleiko,
+    #stakeholder-eleiko-img,
+    .list-value-eleiko,
+    .text-paragraf-volvo {
+        width: 60vw;
+    }
+
+    .design-problem-ruta-eleiko {
+        width: 68vw;
+    }
+
+    .flex-paragrafer-bild-eleiko {
+        flex-direction: column;
+        align-items: first baseline;
+    }
+
+    #blueprint-eleiko-img {
+        display: block;
+        margin: 2vh auto;
+        width: 70vw;
+        height: auto;
+    }
+
+    .storyboard-eleiko-img {
+        display: block;
+        margin: 0 auto;
+        width: 70vw;
+    }
+
+    .flex-result-eleiko {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .paragraf-result-eleiko,
+    .sketch-img-volvo {
+        width: 70vw;
+    }
+
+    #flex-sketch-img-volvo,
+    .flex-wireframes-volvo,
+    .flex-result-volvo,
+    .flex-img-process-dizparc,
+    #deisgn-problem-dizparc,
+    .flex-result-dizparc,
+    .flex-img-process-eleiko {
+        flex-direction: column;
+    }
+
+    .wireframes-img-volvo {
+        width: 67.5vw;
+    }
+
+    .wireframes-img-volvo {
+        width: 50vw;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
+
+    .sektion-result-volvo {
+        width: 60vw;
+        align-items: center;
+        padding: 5vw;
+    }
+}
